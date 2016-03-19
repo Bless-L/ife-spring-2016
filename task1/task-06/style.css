@@ -1,0 +1,341 @@
+
+.container{
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+	width: 980px;
+}
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.clearfix{
+    *zoom:1;
+}
+
+
+
+/* -------------------------------上面为容器样式，下面为页面上边部分样式------------------------------------------ */
+header{
+	position: relative;
+	font-size: 12px;
+	font-family: "黑体"; 
+	width: 892px;
+	height: 61px;
+	border-bottom: 2px solid #938e8c
+}
+header>div{
+	background-color: #D55D5C;
+	display: inline-block;
+	height: 100%;
+	width: 110px;
+	color: #fff;
+
+
+}
+header>div>p{
+	left: 5px;
+	position: absolute;
+	bottom: -10px;
+}
+.date{
+	position: absolute;
+	right: 0px;
+	bottom: -10px;
+	color: #d45d5c;
+	display: inline-block;
+}
+
+.top{
+	margin-top: 30px;
+}
+.top>.pic-container{
+	margin-right: 40px;
+	display: inline-block;
+	width: 641px;
+	height: 301px; 
+}
+.left-layer,.right-layer{
+	height: 100%;
+	width: 191px;
+	opacity: 0.2;
+}
+.left-layer{
+	float: left;
+	background-color: #98FB98;
+}
+.right-layer{
+	float: right;
+	background-color: #BA6965;
+}
+.pic{
+	height: 100%;
+	background-image: url(3.jpg);
+	background-size: 100% 100%;
+}
+
+.top>.text{
+	height: 301px;
+	width: 203px;
+	display: inline-block;
+	border-top: 2px solid #cc8091;
+}
+.top>.text>p{
+	display: inline-block;
+	margin: 0;
+	font-family: "Microsoft YaHei";
+}
+.technologe-title{
+	font-family: "Microsoft YaHei";
+	font-variant: small-caps;
+	font-size: 24px;
+	text-decoration:underline;
+}
+#p-1{
+	font-size: 12px;
+	color: #676767;
+	font-family: "楷体";
+	font-style: oblique;
+}
+#p-2{
+	margin-left: -20px;
+	font-weight: bold;
+	font-size: 116px;
+	color: #75b86b;
+	font-style: oblique;
+}
+#p-3{
+	font-size: 55px;
+	color: #cc8091;
+}
+#p-4{
+	font-weight: bold;
+	margin: 0px;
+	font-size: 21px;
+	color: #cc8091;
+}
+#p-5{
+	margin: 0px;
+	font-size: 12px;
+	color: #777;
+}
+
+/* -------------------------------中间部分样式------------------------------------------ */
+
+.middle>div{
+	margin-right: 30px;
+	float: left;
+}
+
+.middle>div>h3{
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+}
+.middle>div>p{
+	color: #767777;
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+.middle-p{
+	margin:0;
+	color:#231815;
+    line-height:16px;
+}
+.middle-p>span{
+	color: #cd4a48;
+	font-style: oblique;
+}
+
+
+
+/* -------------------------------下边部分样式------------------------------------------ */
+
+.last{
+	margin-top: 60px;
+
+}
+.last-left{
+	float: left;
+	width: 415px;
+	margin-right: 20px;
+}
+
+.last-title{
+	font-family: "SimHei";
+	width: 415px;
+	color: #11456b;
+	border-bottom: 2px solid #11456b
+}
+
+.last-passage>p{
+	font-size: 12px;
+	font-family: "Simsun";
+	color: #767777;
+}
+.last-passage>span{
+	font-family: "Microsoft YaHei";
+	font-size: 70px;
+	color: #f5e327;
+	float: left;
+	margin-right: 10px;
+}
+.last-pic2{
+	margin:20px 0px 20px 20px;
+	float: right;
+	width: 170px;
+	height: 300px
+}
+
+.last-right{
+	width: 458px;
+	float: left;
+}
+.last-pic1{
+	position: relative;
+	width: 100%;
+	height: 275px;
+	background-image: url(2.jpg);
+	background-size: 100% 100% ;
+}
+.last-pic1-layer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 61px;
+	background-color: #000;
+	opacity: 0.4;
+}
+.last-pic1>p{
+	font-family: "Microsoft YaHei";
+	margin:0;
+	position: absolute;
+}
+#pic1-p1{
+	bottom: 4px;
+	padding-left: 20px;
+	color: #fff;
+	line-height: 44px;
+	font-size: 26px;
+	border-left: 3px solid #72b16a;
+	margin-left: 40px;
+}
+#pic1-p2{
+	letter-spacing: 1.5px;
+	font-style: oblique;
+	left: 180px;
+	bottom: 15px;
+	color: #72b16a;
+	font-size: 12px;
+}
+
+.last-section{
+	font-family: "Microsoft YaHei";
+	margin-top: 30px;
+	width: 100%;
+	height: 318px;
+	background-color: #EEEED6;
+}
+.triangle{
+	margin-right: 10px;
+	vertical-align: middle;
+	display: inline-block;
+	width:0; 
+    height:0; 
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom:8px solid #0F4573;
+}
+.catalog{
+	color: #5a5b5b;
+	font-family: "Simsun";
+	padding:10px 30px 0px 30px;
+	font-size: 16px;
+}
+.catalog>p{
+	margin: 20px 0 20px 0;
+}
+.small-p{
+	font-size: 12px;
+	font-style: oblique;
+}
+.last-time{
+	float: left;
+	margin-top: 13px;
+	width: 260px;
+	height: 160px;
+	background-color: #D55D5C;
+}
+.last-time>p{
+	color: #fff;
+	float: left;
+	margin:0;
+}
+#time-p1{
+	margin: 42px 10px 0 8px;
+	line-height: 86px;
+	padding-right: 5px;
+	font-size: 110px;
+	border-right: 2px solid #fff;
+}
+#time-p2{
+	margin-top: 45px;
+	font-size: 21px;
+	font-family: "SimHei";
+	font-style: oblique;
+}
+#time-p3{
+	margin-top: 5px;
+	font-size: 12px;
+	font-family: "SimHei";
+}
+
+.quote{
+	margin:30px 15px 0 0;
+	font-family: "SimHei";
+	float: right;
+	width: 165px;
+}
+.quote>p{
+	color: #5a5b5b;
+	font-size: 14px;
+	font-style: oblique;
+}
+
+.big-quote-left{
+	margin-left: -40px;
+	margin-right: 10px;
+	height: 30px;
+	float: left;
+	font-size: 72px;
+	color: #d45d5c;
+}
+
+.big-quote-right{
+	margin-right: -35px;
+	margin-top: -35px;
+	height: 30px;
+	float: right;
+	font-size: 72px;
+	color: #d45d5c;
+}
+
+
+/* ---------------------------------页尾样式------------------------------------------ */
+
+footer{
+	margin-top: 20px;
+	width: 892px;
+	height: 61px;
+	position: relative;
+	border-top: 1px solid #938e9c;
+}
+footer>p{
+	position: absolute;
+	right: 0px;
+	top: -8px;
+	font-size: 12px;
+	color: #d45d5c;
+	font-family: "SimHei";
+}
