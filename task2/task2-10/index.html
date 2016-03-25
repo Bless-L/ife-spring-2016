@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript和树（一）</title>
+	<script src="task.js"></script>
+</head>
+	<style>
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+	background-color: #fff;
+	border: 1px solid #000;
+}
+#tree-root{
+	margin: 0 auto;
+	width: 1200px;
+	height: 300px;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+
+#tree-root *{
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	margin:20px 25px;
+}
+
+.leaf{
+	width: 60px;
+	height: 150px;
+}
+
+.traverse{
+	margin-top: 50px;
+	text-align: center;
+	width: 100%;
+	border: 0;
+}
+
+</style>
+<body>
+	<div id='tree-root'>
+		<div >
+			<div>
+				<div class="leaf"></div>
+				<div class="leaf"></div>
+			</div>
+			<div>
+				<div class="leaf"></div>
+				<div class="leaf"></div>
+			</div>
+		</div>
+		<div>
+			<div>
+				<div class="leaf"></div>
+				<div class="leaf"></div>
+			</div>
+			<div>
+				<div class="leaf"></div>
+				<div class="leaf"></div>
+			</div>
+		</div>
+	</div>
+	<div class="traverse">
+		<button id="preOrder">先序遍历</button>
+		<button id="inOrder">中序遍历</button>
+		<button id="postOrder">后序遍历</button>
+		<button id="DFS">深度优先遍历</button>
+		<button id="BFS">广度优先遍历</button>
+	</div>
+</body>
+</html>
