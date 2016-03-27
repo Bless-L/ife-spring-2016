@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript和树（二）</title>
+	<script src="task.js"></script>
+</head>
+	<style>
+	body{
+	font-size: 20px;
+	font-family: 'Microsoft YaHei';
+    margin: 0;
+    padding: 0;
+}
+div{
+	background-color: #fff;
+	border: 1px solid #000;
+}
+#tree-root{
+	margin: 0 auto;
+	width: 90%;
+	height: 460px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+#tree-root *{
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	margin:20px 25px;
+}
+
+.leaf{
+	justify-content: space-around;
+	width: 120px;
+	height: 100px;
+}
+.traverse{
+	margin-top: 50px;
+	text-align: center;
+	width: 100%;
+	border: 0;
+}
+
+</style>
+<body>
+	<div id='tree-root'>fish
+		<div class="layout-1">cat
+			<div>pig
+				<div class="leaf">cow</div>
+			</div>
+			<div class="leaf">dog</div>
+			<div>rabbit
+				<div class="leaf">duck</div>
+				<div class="leaf">tiger</div>
+			</div>
+			<div class="leaf">fox</div>
+		</div>
+		<div  class="layout-1">Jodie
+			<div>Nick
+				<div class="leaf">Paul</div>
+				<div class="leaf">Redick</div>
+			</div>
+			<div class="leaf">Curry</div>
+			<div class="leaf">James</div>
+		</div>
+		<div class="leaf layout-1">Durant</div>
+	</div>
+	<div class="traverse">
+		<input type="text" id='aqi-data' placeholder="请输入你要查找的英文">
+		<button id="DFS">深度优先搜索</button>
+		<button id="BFS">广度优先搜索</button>
+	</div>
+</body>
+</html>
