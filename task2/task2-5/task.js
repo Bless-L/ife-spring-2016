@@ -283,5 +283,4 @@ function init() {
     renderChart();
   }
 }
-
-init();
+init();   

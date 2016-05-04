@@ -6,8 +6,8 @@
 var regCity = /^[\u4e00-\u9fa5a-zA-Z\/\(\)]+$/;
 var regData = /[0-9]/;
 //去除两边空格
-var trim = function(str) {
-	return str.replace(/\s+/g, '');
+function trim(str) {
+	return str.replace(/(^\s*)|(\s*$)/g, '');
 }
 
 
